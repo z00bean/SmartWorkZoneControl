@@ -1,0 +1,38 @@
+Vehicle_seg- Medford
+
+ffmpeg -ss 8.25 -t 10 -i Stream1_20230515_211737.mp4 -vf "fps=10,scale=280:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" -loop 0 op-veh-Medford-1.gif
+
+ffmpeg -ss 278 -t 15 -i Stream1_20230515_211737.mp4 -vf "fps=10,scale=280:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" -loop 0 op-veh-Medford-2.gif
+
+Vehicle_seg- Danvers
+ffmpeg -ss 1852 -t 10 -i 20230531_194415-Dan-Veh.mp4 -vf "fps=10,scale=280:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" -loop 0 op-veh-Danvers-1.gif
+
+ffmpeg -ss 3193 -t 15 -i 20230531_194415-Dan-Veh.mp4 -vf "fps=10,scale=280:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" -loop 0 op-veh-Danvers-2.gif
+
+
+LaneRoad_seg- Medford
+
+ffmpeg -ss 8.25 -t 10 -i Stream1_20230515_211737.mp4 -vf "fps=10,scale=280:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" -loop 0 op-lane-Medford-1.gif
+
+ffmpeg -ss 278 -t 15 -i Stream1_20230515_211737.mp4 -vf "fps=10,scale=280:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" -loop 0 op-lane-Medford-2.gif
+
+LaneRoad_seg- Danvers
+
+ffmpeg -ss 3193 -t 15 -i 20230531_194415-Dan-Lane.mp4 -vf "fps=10,scale=280:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" -loop 0 op-lane-Danvers-2.gif
+
+
+
+Veh- seg CAMPTON
+ffmpeg -ss 925.5 -t 15 -i Stream1_20230820_150849.mp4 -vf "fps=10,scale=320:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" -loop 0 op-Campton-veh-1.gif
+
+ffmpeg -ss 48 -t 24 -i Stream1_20230826_110832.mp4 -vf "fps=10,scale=320:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" -loop 0 op-Campton-veh-2.gif
+
+
+
+COMPRESS
+
+
+
+gifsicle -i op-Campton-veh-1.gif -O3 --colors 165 --lossy=150 -o op-Campton-veh-1-COMP.gif
+gifsicle -i op-Campton-veh-2.gif -O3 --colors 165 --lossy=150 -o op-Campton-veh-2-COMP.gif
+
