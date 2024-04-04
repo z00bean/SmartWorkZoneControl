@@ -1,6 +1,6 @@
 # SmartWorkZoneControl-MassDOT
 
-### Analyzing Highway Work Zone Traffic Dynamics via Thermal Videos and Deep Learning
+## Analyzing Highway Work Zone Traffic Dynamics via Thermal Videos and Deep Learning
 
 Zubin Bhuyan, Yuanchang Xie, Ruifeng Liu, Yu Cao, Benyuan Liu
 
@@ -30,7 +30,7 @@ Zubin Bhuyan, Yuanchang Xie, Ruifeng Liu, Yu Cao, Benyuan Liu
 
 Deep learning excels in object detection due to its effective feature recognition capabilities, independent of color information. When integrated with thermal imaging, which detects heat emissions rather than relying on visible light, this approach ensures superior performance under conditions where optical cameras are ineffective.The success of deep learning applications heavily relies on a high-quality, diverse training dataset. Therefore, a substantial effort went into developing a detailed thermal vehicle dataset, designed for the specific conditions of highway work zones. This dataset, critical for training our models to perform effectively in real-world scenarios, was created from thermal footage collected in Medford and Danvers. The dataset categorizes vehicles into three classes: small, medium, and large. Small vehicles consist of sedans, motorbikes, SUVs, and pickups. Medium vehicles cover trucks like garbage and concrete mixers, construction vehicles, and buses. Large vehicles include tractor-trailers.
 
-Video Processing Framework Highlights:
+### Video Processing Framework Highlights:
 
 1. **Model Deployment**: The trained model and tracking module were deployed on two separate computing environments with NVIDIA A100 and RTX 4090 GPUs, enabling parallel video processing of Medford and Danvers locations.
 
@@ -40,7 +40,16 @@ Video Processing Framework Highlights:
 
 4. **Video Compression**: Utilized ffmpeg to compress processed videos for efficient storage and sharing. Achieved a compression ratio of ~95%, reducing 1-hour videos from 3.5-4 GB to 60-110 MB.
 
-Equipment
+### Equipment
+Data collection was carried out using FLIR TrafiSense AI-632 thermal imaging cameras, with the recorded footage stored locally. The cameras were installed on trailers positioned by the highway and a boom lift for optimal coverage.
+
+Data collection was conducted with FLIR TrafiSense AI-632 thermal imaging cameras, and the footage was stored on local drives. These cameras were strategically mounted on trailers alongside roads and on a boom lift to ensure extensive coverage.
+
+![Deployment of thermal cameras and radar systems for data collection at the Medford site](images/equipment/main_pg_eq.jpg)
+*Deployment of thermal cameras and radar systems for data collection at the Medford site.*
+
+For additional information, please see the [CAMERA_DEPLOYMENT_README](images/equipment/README.md) in the equipment image directory.
+
 
 Video data table
 
