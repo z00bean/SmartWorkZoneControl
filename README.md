@@ -51,18 +51,71 @@ Data collection was conducted with FLIR TrafiSense AI-632 thermal imaging camera
 For additional information, please see the [CAMERA_DEPLOYMENT_README](images/equipment/README.md) in the equipment image directory.
 
 
-Video data table
 
-Occluded vehicles
 
-Trajectory analysis
+#### Occluded vehicles
 
-Near work zone
+<table>
+  <tr>
+    <td> <img src="images/occluded_veh/4a-0003026-Small-99734.jpg"  alt="Andover-close call"  width="320"></td>
+    <td> <img src="images/occluded_veh/4b-0003027-Small-99746.jpg" alt="Auburn-speed of vehicles"  width="320"></td>
+   </tr> 
+   <tr>
+      <td><i>Medford, MA: Occluding vehicle.</i></td>
+      <td><i>Medford, MA: Occluded vehicle.</i> </td>
+  </tr>
+</table>
 
-Medford
 
-Danvers
+
+#### Vehicle Trajectory Reconstruction
+
+<table>
+  <tr>
+    <td> <img src="images/trajectory-est/1a-0000453-Medium-50472.jpg"  alt="Andover-close call"  width="320"></td>
+    <td> <img src="images/trajectory-est/1b-0000130-Small-2981.jpg" alt="Auburn-speed of vehicles"  width="320"></td>
+   </tr> 
+   <tr>
+      <td><i>Danvers, MA.</i></td>
+      <td><i>Medford, MA.</i> </td>
+  </tr>
+</table>
+
+
+#### Detecting vehicles travelling close to work zone
+
+<table>
+  <tr>
+    <td> <img src="images/near-WZ/D-5b-output_frame-2804-64660-Large.jpg"  alt="Andover-close call"  width="320"></td>
+    <td> <img src="images/near-WZ/M-5a-output_frame-1009-48960-Large.jpg" alt="Auburn-speed of vehicles"  width="320"></td>
+   </tr> 
+   <tr>
+      <td><i>Danvers, MA.</i></td>
+      <td><i>Medford, MA.</i> </td>
+  </tr>
+</table>
+
+#### Medford
+
+<table>
+  <tr>
+    <td> <img src="images/CHARTS-MEDFORD/W1v2.png"  alt="Andover-close call"  width="600"></td>
+   </tr> 
+   <tr>
+      <td><i>Medford: Sample analysis result.</i></td>
+  </tr>
+</table>
+
+[images/CHARTS-MEDFORD](images/CHARTS-MEDFORD)
+
+
+#### Danvers
+
+[images/CHARTS-DANVERS](images/CHARTS-DANVERS)
 
 Campton
 
 (link to campton)
+
+Video data table
+
