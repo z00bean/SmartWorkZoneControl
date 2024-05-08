@@ -1,6 +1,6 @@
 # SmartWorkZoneControl-MassDOT
 
-## Analyzing Highway Work Zone Traffic Dynamics via Thermal Videos and Deep Learning
+## Towards Safer Highway Work Zones: Insights from Deep Learning Analysis of Thermal Footage
 
 Zubin Bhuyan, Yuanchang Xie, Ruifeng Liu, Yu Cao, Benyuan Liu
 
