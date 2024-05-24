@@ -8,4 +8,4 @@ The thermal cameras, mounted on roadside trailers and a boom lift, provided robu
 
 
 <img src="Slide4-zubin_bhuyan_thermal_ITS_radar.jpg" alt="FLIR Trafisense thermal camera and radar system. Zubin Bhuyan." width="680"/>
-FLIR Trafisense thermal camera and radar system. [Zubin Bhuyan](https://cs.uml.edu/~zbhuyan/)
+FLIR Trafisense thermal camera and radar system. [Zubin Bhuyan](https://cs.uml.edu/~zbhuyan/) .
