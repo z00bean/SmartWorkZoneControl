@@ -2,7 +2,7 @@
 
 ## Towards Safer Highway Work Zones: Insights from Deep Learning Analysis of Thermal Footage
 
-[Zubin Bhuyan](https://cs.uml.edu/~zbhuyan/), Yuanchang Xie, Ruifeng Liu, Yu Cao, Benyuan Liu
+Zubin Bhuyan, [Yuanchang Xie](https://www.uml.edu/engineering/civil-environmental/faculty/xie-yuanchang.aspx), Ruifeng Liu, [Yu Cao](https://www.uml.edu/sciences/computer-science/people/cao-yu.aspx), [Benyuan Liu](https://www.cs.uml.edu/~bliu/index.html)
 
 > This research project aims to develop methods to extract vehicle trajectories, use the trajectories to analyze driver behavior, particularly lane-changing behavior under different conditions, and identify safety hazards and opportunities to improve work zone safety and operations. (MassDOT Research Program with funding from FHWA SPR funds.)
 >
