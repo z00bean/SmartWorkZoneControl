@@ -1,5 +1,13 @@
 # SmartWorkZoneControl-MassDOT
 
+
+> Z. Bhuyan, Y. Xie, R. Liu, Y. Cao and B. Liu, "Towards Safer Highway Work Zones: Insights from Deep Learning Analysis of Thermal Footage," 
+17th IFAC Symposium on Control in Transportation Systems (2024)
+
+
+[Link to paper](https://www.sciencedirect.com/science/article/pii/S2405896324004221)
+
+
 ## Towards Safer Highway Work Zones: Insights from Deep Learning Analysis of Thermal Footage
 
 Zubin Bhuyan, [Yuanchang Xie](https://www.uml.edu/engineering/civil-environmental/faculty/xie-yuanchang.aspx), Ruifeng Liu, [Yu Cao](https://www.uml.edu/sciences/computer-science/people/cao-yu.aspx), [Benyuan Liu](https://www.cs.uml.edu/~bliu/index.html)
@@ -118,4 +126,21 @@ Campton
 (link to campton)
 
 Video data table
+
+
+## Cite
+
+
+```bibtex
+@article{bhuyan2024towards,
+  title={Towards Safer Highway Work Zones: Insights from Deep Learning Analysis of Thermal Footage},
+  author={Bhuyan, Zubin and Xie, Yuanchang and Liu, Ruifeng and Cao, Yu and Liu, Benyuan},
+  journal={IFAC-PapersOnLine},
+  volume={58},
+  number={10},
+  pages={188--193},
+  year={2024},
+  publisher={Elsevier}
+}
+```
 
